@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .death-knight {
+        @apply bg-red-700;
+    }
+
+    .mage {
+        @apply bg-cyan-600;
+    }
+
+    .hunter {
+        @apply bg-lime-600;
+    }
+
+    .paladin {
+        @apply bg-rose-400;
+    }
+
+    .warrior {
+        @apply bg-amber-800;
+    }
+
+    .priest {
+        @apply bg-white;
+    }
+
+    .warlock {
+        @apply bg-purple-600;
+    }
+
+    .druid {
+        @apply bg-orange-600;
+    }
+
+    .rogue {
+        @apply bg-yellow-400;
+    }
+
+}
